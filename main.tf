@@ -4,7 +4,7 @@ provider "aws" {
 
 variable "instance_names" {
   default = [
-    "jenkins",
+    "jenkins-1",
     "tomcat-1",
     "tomcat-2",
     "Monitoring server"
