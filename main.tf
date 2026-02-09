@@ -13,7 +13,7 @@ variable "instance_names" {
 
 resource "aws_instance" "one" {
   count                  = 4
-  ami                    = "ami-0bbdd8c17ed981ef9"
+  ami                    = "ami-0b6c6ebed2801a5cb"
   instance_type          = "t2.micro"
   key_name               = "aws-devops-key"
   vpc_security_group_ids = ["sg-065591c7faf920d78"]
